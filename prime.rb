@@ -13,7 +13,7 @@ end
 
 def eratosthenes(n)
     a=[]
-    for i in 1..n
+    for i in 2..n
         if checkPrime(i)
             a<<i
         end
